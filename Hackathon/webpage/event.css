@@ -1,0 +1,75 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.1875;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  clear: both;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  border: 0px solid yellow;
+  box-sizing: border-box;
+  margin: 0px 0px 0px 0px;
+  padding: 50px 0 50px 0;
+  display: block;
+}
+
+#event {
+  padding: 25px 100px;
+  position: relative;
+  margin: 25px 100px 25px 100px;
+
+  box-sizing: border-box;
+  display: flex;
+}
+
+#event > .time {
+  border: 0px solid #000000;
+  position: relative;
+  width: 20%;
+  padding: 0px 8px;
+  text-align: left;
+}
+
+#event > .content {
+  border: 0px solid #000000;
+  position: relative;
+  width: 60%;
+  text-align: left;
+}
+
+#event > .reservation {
+  border: 0px solid #000000;
+  position: relative;
+  width: 20%;
+  padding: 32px;
+}
+
+button.old {
+  width: 100%;
+  background-color: #aaa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.new {
+  width: 100%;
+  background-color: #50859b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

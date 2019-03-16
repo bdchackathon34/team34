@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>McGill Arbitration Student Society</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="font-awesome.min.css" rel="stylesheet" />
+    <link href="arbitration.css" rel="stylesheet" />
+    <link href="header.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+    <script src="jquery-1.12.4.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#footer").load("footer.html");
+        $("#header").load("header.html");
+
+        $("#wb_LayoutGrid5").parallax();
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header"></div>
+    <!-- end of header -->
+    <div id="container">
+      <div id="container-inside">
+        <div id="LayoutText">
+          <div class="row">
+            <div class="column1">
+              <h2>About us</h2>
+              <p>
+                The McGill Arbitration Student Society (MASS)/Société étudiante
+                d’arbitrage de McGill (SÉAM) aims to promote scholarly and
+                professional interest in arbitration, a consent-based dispute
+                resolution method practiced both internationally and
+                domestically. Arbitration is an exciting and growing area of
+                legal practice that deals with issues of commercial, labour, and
+                private international law, among many other disciplines. Founded
+                in 2010, MASS organizes events examining topical issues in
+                arbitration featuring world-renowned scholars and practitioners.
+                Every February, MASS partners with the McGill Journal of Dispute
+                Resolution to co-host a symposium on arbitration, held at a
+                major Montreal law firm. Additionally, MASS hosts a variety of
+                speakers and panel discussions at McGill throughout the year.
+                Through its operations, MASS is committed to showcasing
+                arbitration’s wide use and potential across multiple fields of
+                practice and in diverse cultural settings. The Society welcomes
+                new members each Fall to assist with its management and
+                stakeholder relations teams.
+              </p>
+            </div>
+            <div class="center"></div>
+            <div class="column2">
+              <h2>À propos de nous</h2>
+              <p>
+                La Société étudiante d’arbitrage de McGill (SÉAM)/McGill
+                Arbitration Student Society (MASS) a pour but de promouvoir
+                l’intérêt théorique et professionnel en arbitrage, une méthode
+                de règlement des différends basée sur le consentement des
+                parties qui est employée à l’intérieur et l’échelle
+                internationale. L’arbitrage est un domaine de droit qui prend de
+                l’ampleur. Elle traite notamment les questions de droit
+                commercial, droit du travail, et droit international privé.
+                Fondée en 2010, la SÉAM organise des événements qui abordent les
+                sujets actuels en arbitrage. À cette fin, nous accueillons les
+                chercheurs et les praticiens reconnus dans le domaine. Chaque
+                février, la SÉAM et le Revue de règlement des différends de
+                McGill présentent une conférence en arbitrage, qui a lieu chez
+                l’un des cabinets d’avocats à Montréal. En plus, la SÉAM offre
+                une série de conférences et discussions en groupe durant l’année
+                scolaire. Par son travail, la SÉAM vise à faire valoir le
+                potentiel et l’applicabilité de l’arbitrage dans plusieurs
+                domaines de droit, et à travers divers contextes culturels. La
+                Société accueille de nouveaux membres qui s’intéressent à la
+                gestion et à l’engagement des intervenants.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div><p></p></div>
+    <div id="footer"></div>
+    <script>
+       window.onscroll = function() {stick()};
+       var navbar = document.getElementById("wb_LayoutGrid1");
+       if(navbar!=null) document.getElementById("print").innerHTML = "ad";
+       var sticky = navbar.offsetTop;
+      stick() { if (window.pageYOffset >= sticky) { navbar.classList.add("reee") } else { navbar.classList.remove("reee");
+      } }
+    </script>
+  </body>
+</html>

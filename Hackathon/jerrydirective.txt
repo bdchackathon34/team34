@@ -1,0 +1,20 @@
+squeeze the nav menu to left
+inside header
+nav menu stays
+
+header picture resolution 
+
+contact page, copy paste from wordpress
+
+membership page, copy from mcgill business law assocation
+
+event: categorize by year, copy from mcgill business law assocation
+
+our team page, same as mcgill ai, no external link,
+make circle bigger
+
+photo logo stretch it
+
+footer too high
+
+mobile: menu box icon, options comes out from left
