@@ -53,23 +53,15 @@ body {
   padding: 32px;
 }
 
-button.old {
-  width: 100%;
-  background-color: #aaa;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+.abutton {
+  background-color: #4CAF50;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-button {
-  width: 100%;
-  background-color: #50859b;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
 }
