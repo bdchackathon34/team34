@@ -16,7 +16,6 @@ body {
   display: table;
   text-align: center;
   width: 100%;
-  background-image: url(images/header_picture.jpg);
   background-color: rgba(255, 255, 255, 0);
   background-repeat: repeat;
   background-position: center center;
@@ -27,7 +26,7 @@ body {
 }
 #LayoutGrid5 {
   box-sizing: border-box;
-  padding: 100px 15px 100px 15px;
+  padding: 10px 15px 10px 15px;
   margin-right: auto;
   margin-left: auto;
 }

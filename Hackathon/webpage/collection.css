@@ -62,3 +62,19 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #777;
 }
+
+.box {
+position: relative;
+  box-sizing: border-box;
+  padding: 0px;
+ 	margin: 0px;
+}
+
+box >.single1{
+width: 30%
+}
+
+box> .single2{
+width: 30%;
+}
+
